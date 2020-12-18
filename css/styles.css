@@ -1,179 +1,158 @@
-
-body {
-  font-family: "Montserrat";
-  text-align: center;
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 8% 3%;
 }
-
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+body{
+    font-family: 'Montserrat-black', sans-serif;
+    text-align: center;
+    font-size: 1rem; 
+}
 p {
-  color: #8f8f8f;
+    color: #8f8f8f;
 }
-
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
-
-.container-fluid{
-  padding: 7% 15%;
-}
-
-/* Sections */
-
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.white-section {
-  background-color: #fff;
+.container-fluid{ 
+    padding: 1% 15%;
 }
 
 /* Navigation Bar */
 
-.navbar {
-  padding: 0 0 4.5rem;
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+/* Title */
+
+#navbarSupportedContent {
+    margin-left: 62%;
 }
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
 #title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
+    background-color: #ff4c68;
+    color: #ffff;
+}
+.big-heading {
+    padding:13% 0%;
+    text-align: left;
+}
+.iphone-image {
+    width: 24%;
+    transform: rotate(30deg);
+    position: absolute;
+    margin: 2% -12%;
+}
+.big-title{
+    margin-bottom: 10%;
+    text-align: initial;
+}
+.btn-download{
+    padding-top: 10%;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+/* Features */
+
+#features{
+    background-color: #ffff;
+    padding: 10% 15%;
+    position: relative;
+}
+.icon{
+margin-bottom: 1rem;
+color: #ef8172;
+}
+.icon:hover{
+color: #ff4c68;
 }
 
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-}
-
-/* Features Section */
-
-#features {
-  position: relative;
-}
-
-.feature-title {
-  font-size: 1.5rem;
-}
-
-.feature-box {
-  padding: 4.5%;
-}
-
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
-/* Testimonial Section */
+/* TESTIMONAL */
 
 #testimonials {
-  background-color: #ef8172;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
+background-color: #ef8172;
+color: #ffff;
 }
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
 }
 
+/* PRESS */
 
 #press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
+    background-color: #ef8172;
+    padding: 1%;
 }
 
 .press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
+    width:15%;
+    margin: 20px 20px 50px;
 }
-
-/* Pricing Section */
+ 
+/* PRICE */
 
 #pricing {
-  padding: 100px;
+    padding: 100px;
 }
-
 .price-text {
-  font-size: 3rem;
-  line-height: 1.5;
+    font-weight: bold;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.btn-price {
+    width: 60%;
 }
 
-.pricing-column {
-  padding: 3% 2%;
+/* CTA  */
+#cta {
+    background-color: #ef8172;
+    color: #ffff;
+    padding: 7% 7%;
+}
+.title-cta {
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.btn-cta {
+    margin: 0.5%;  
 }
 
-/* CTA Section */
+/* FOOTER */
 
-
-/* Footer Section */
-
-
+#footer {
+    padding: 7% 7%;
+    font-weight:unset;
+}
+.footer-logo {
+    padding: 2% 2%;
+}
 .social-icon {
-  margin: 20px 10px;
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
-@media (max-width: 1028px) {
 
-  #title {
-    text-align: center;
-  }
+@media (max-width: 1400px) {
+    #title{
+        text-align: center;
+    }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
+    .iphone-image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
 }
