@@ -1,158 +1,179 @@
-h1, h2, h3, h4, h5{
-    font-family: 'Montserrat';
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-h1{
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding: 8% 3%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
-h2{
-    font-size: 3rem;
-    line-height: 1.5;
+p {
+  color: #8f8f8f;
 }
 
-body{
-    font-family: 'Montserrat-black', sans-serif;
-   
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-/* heading*/
-big-heading{
-    margin: 3%;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.container-fluid{ 
-    padding: 3% 15%;
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
 
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-/*Title*/
-#navbarSupportedContent {
-    margin-left: 50%;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
 #title {
-    background-color: #ef8172;
-    color: #ffff;
-}
-.iphone-image {
-    width: 21%;
-    transform: rotate(40deg);
-    position: absolute;
-    margin-left: 4%;
-}
-.big-title{
-    margin-bottom: 10%;
-
-}
-.btn-download{
-    padding-top: 10%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
 }
 
-/* Features */
-#features{
-    text-align: center;
-    background-color: #ffff;
-    padding: 10% 15%;
-    position: relative;
-
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
-.icon{
-margin-bottom: 1rem;
-color: #ef8172;
-}
-.icon:hover{
-color: #ff4c68;
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
-/* TESTIMONAL */
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
 
 #testimonials {
+  background-color: #ef8172;
+}
 
-background-color: #ef8172;
-text-align: center;
-color: #ffff;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-/*PRESS */
+
 #press {
-    background-color: #ef8172;
-    padding: 1%;
-    text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
 .press-logo {
-    width:15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
- 
-/* PRICE */
+
+/* Pricing Section */
+
 #pricing {
-    padding: 100px;
-    text-align: center;
+  padding: 100px;
 }
 
-.pricing-column{
-    text-align: center;
-    padding: 3% 2%;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-/* CTA  */
-
-#cta {
-    background-color: #ef8172;
-    text-align: center;
-    color: #ffff;
-    padding: 7% 7%;
-}
-.title-cta {
-    font-size: 3.5rem;
-    font-weight: 100;
-    line-height: 1.5;
-}
-.btn-cta{
-    margin: 0.5%;
+.pricing-column {
+  padding: 3% 2%;
 }
 
-#footer {
-    padding: 7% 7%;
-    text-align: center;
-    font-weight:unset;
-}
-.footer-logo {
-    padding: 2% 2%;
-}
+/* CTA Section */
+
+
+/* Footer Section */
+
 
 .social-icon {
-    
-    padding: 1%;
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
-    #title{
-        text-align: center;
-    }
 
-    .iphone-image {
-        position: static;
-        transform: rotate(0);
-        width: 80%;
-    }
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
